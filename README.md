@@ -66,11 +66,38 @@ Here is the list of installed packages with this VM:
     <td>PHP5 APC cache support</td>
   </tr>
   <tr>
+    <td>php5-intl</td>
+    <td>PHP5 internationalization support</td>
+  </tr>
+  <tr>
     <td>php-pear</td>
     <td>PHP5 PEAR tool</td>
   </tr>
   <tr>
+    <td>libapache2-mod-php5</td>
+    <td>Apache2 module for php5 support</td>
+  </tr>
+  <tr>
     <td>pear</td>
     <td>PHP PEAR tool</td>
+  </tr>
+  <tr>
+    <td>varnish</td>
+    <td>Varnish HTTP cache (https://www.varnish-cache.org)</td>
+  </tr>
+</table>
+
+## Optional packages list
+
+The following packages are optional but can be enabled by uncommenting them in `manifests/default.pp` file.
+
+<table>
+  <tr>
+    <th>Package</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>symfony</td>
+    <td>Symfony Framework Standard Edition v2.2.0 + vendors install (http://www.symfony.com)</td>
   </tr>
 </table>
