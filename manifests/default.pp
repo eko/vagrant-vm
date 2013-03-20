@@ -6,6 +6,7 @@ Exec {
 # required packages
 include bootstrap
 include tools
+include tools::capifony
 include tools::composer
 include apache
 include varnish

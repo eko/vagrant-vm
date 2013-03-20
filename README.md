@@ -22,12 +22,16 @@ Here is the list of installed packages with this VM:
 
 <table>
   <tr>
-    <th>Package</th>
+    <th>Package/tool</th>
     <th>Description</th>
   </tr>
   <tr>
     <td>apache2</td>
     <td>Apache2 HTTP server (http://httpd.apache.org)</td>
+  </tr>
+  <tr>
+    <td>capifony</td>
+    <td>capifony ruby gem based on capistrano (http://capifony.org)</td>
   </tr>
   <tr>
     <td>composer</td>
@@ -82,6 +86,10 @@ Here is the list of installed packages with this VM:
     <td>PHP PEAR tool</td>
   </tr>
   <tr>
+    <td>tig</td>
+    <td>Text-mode interface for Git (http://jonas.nitro.dk/tig)</td>
+  </tr>
+  <tr>
     <td>varnish</td>
     <td>Varnish HTTP cache (https://www.varnish-cache.org)</td>
   </tr>
@@ -93,7 +101,7 @@ The following packages are optional but can be enabled by uncommenting them in `
 
 <table>
   <tr>
-    <th>Package</th>
+    <th>Package/tool</th>
     <th>Description</th>
   </tr>
   <tr>
