@@ -14,7 +14,7 @@ class apache {
   # add sample webroot file to apache available sites
   file { "/etc/apache2/sites-available/webroot":
     ensure => present,
-    source => "/vagrant/manifests/samples/apache.webroot",
+    source => "/vagrant/modules/apache/samples/apache.webroot",
     require => Package["apache2"]
   }
 
