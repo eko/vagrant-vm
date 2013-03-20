@@ -1,4 +1,4 @@
-# Vagrant VM
+# Vagrant - Symfony virtual machine
 
 This repository is used to store my personal-shared Vagrant development environment which is configured using the Puppet provisioner.
 
@@ -27,7 +27,11 @@ Here is the list of installed packages with this VM:
   </tr>
   <tr>
     <td>apache2</td>
-    <td>Apache2 web server</td>
+    <td>Apache2 HTTP server (http://httpd.apache.org)</td>
+  </tr>
+  <tr>
+    <td>composer</td>
+    <td>Composer dependency library (http://getcomposer.org)</td>
   </tr>
   <tr>
     <td>mysql-server</td>
@@ -35,7 +39,7 @@ Here is the list of installed packages with this VM:
   </tr>
   <tr>
     <td>php5</td>
-    <td>PHP main package language</td>
+    <td>PHP main package language (http://www.php.net)</td>
   </tr>
   <tr>
     <td>php5-cli</td>

@@ -1,7 +1,7 @@
 <VirtualHost *:80>
   ServerName app.local
-  DocumentRoot /vagrant/project/web
-  <Directory /vagrant/project/web>
+  DocumentRoot /vagrant/workspace/symfony/web
+  <Directory /vagrant/workspace/symfony/web>
     DirectoryIndex index.php
     AllowOverride All
     Order allow,deny

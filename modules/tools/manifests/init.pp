@@ -1,5 +1,5 @@
 class tools {
-  $packages = ["curl", "vim"]
+  $packages = ["curl", "vim", "libaugeas-ruby", "augeas-tools"]
 
   package { $packages:
     ensure => present,

@@ -9,4 +9,6 @@ include apache
 include mysql
 include php
 include php::pear
+include symfony
 include tools
+include tools::composer
