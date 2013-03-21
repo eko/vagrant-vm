@@ -17,14 +17,13 @@ class tools::composer {
 
   # download composer
   exec { 'download_composer':
-    command   => 'curl -s http://getcomposer.org/installer | php',
-    cwd       => '/home/vagrant',
-    require   => [
+    command => 'curl -s http://getcomposer.org/installer | php',
+    cwd     => '/home/vagrant',
+    require => [
       Package['curl', 'php5-cli'],
       Augeas['whitelist_phar', 'allow_url_fopen'],
     ],
-    creates   => "/home/vagrant/composer.phar",
-    logoutput => true,
+    creates => "/home/vagrant/composer.phar"
   }
 
   # ensures that /usr/local/bin directory exists to move composer into

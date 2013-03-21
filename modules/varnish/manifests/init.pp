@@ -1,6 +1,6 @@
 class varnish {
   package { "varnish":
-    ensure  => [present, latest],
+    ensure  => latest,
     require => Exec["apt-get update"]
   }
 

@@ -3,7 +3,7 @@ class php {
 
   # install php packages
   package { $packages:
-    ensure => [present, latest],
+    ensure => latest,
     require => Exec["apt-get update"]
   }
 

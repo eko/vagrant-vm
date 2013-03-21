@@ -42,6 +42,10 @@ Here is the list of installed packages with this VM:
     <td>MySQL database server (with root password: toor)</td>
   </tr>
   <tr>
+    <td>oh-my-zsh</td>
+    <td>a zsh handful of functions (https://github.com/robbyrussell/oh-my-zsh)</td>
+  </tr>
+  <tr>
     <td>php5</td>
     <td>PHP main package language (http://www.php.net)</td>
   </tr>

@@ -1,7 +1,7 @@
 class bootstrap { 
   # ensures that puppet is present
   group { 'puppet':
-    ensure => 'present'
+    ensure => present
   }
 
   # update packages before installing them

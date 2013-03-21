@@ -8,6 +8,7 @@ include bootstrap
 include tools
 include tools::capifony
 include tools::composer
+include tools::ohmyzsh
 include apache
 include varnish
 include mysql
